@@ -1,0 +1,6 @@
+Game.MSG_SYNC			= 0; /* player/ship state sync - from server to clients */
+Game.MSG_CREATE_PLAYER	= 1; /* new player(s) created - both */
+Game.MSG_CREATE_SHIP	= 2; /* new ship(s) created - both */
+Game.MSG_CHANGE			= 3; /* ship params changed - both */
+Game.MSG_DESTROY_SHIP	= 4; /* player's ship destroyed - from server to clients */
+Game.MSG_DESTROY_PLAYER	= 5; /* player left game - from server to clients */
